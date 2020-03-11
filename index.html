@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    .gender,
+    .zgoda,
+    .Wiadomosc {
+        margin: auto;
+    }
+</style>
+<body>
+   <form 
+   action="https://formspree.io/FORM_ID"
+   method="POST">
+        <label for="text" input="text" name="Imie">  Imie</label><br>
+        <input type="text"><br>
+        <label for="text" input="text" name="Nazwisko">Nazwisko</label><br>
+        <input type="text"><br>
+        <label for="email" name="email">Email</label><br>
+        <input type="email"><br>
+        <label for="tel" name="tel"> Numer telefonu</label><br>
+        <input type="number"><br>
+        <label for="miasto">Miasto</label> <br>
+        <select name="miasto" id="miasto"> <br>
+            <option value="Krakow">Krakow</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Sosnowiec">Sosnowiec</option>
+        </select><br>
+        <label for="gender" class="gender">Mezczyzna</label>
+        <input type="radio"><br>
+        <label for="gender" class="gender">Kobieta</label>
+        <input type="radio"><br>
+        <label for="zgoda" class="zgoda">Wyrazam zgode na przetwarzanie moich danych osobowych.</label>
+        <input type="radio" ><br>
+        <label for="Wiadomosc" class="Wiadomosc"> Wiadomosc:</label><br>
+        <textarea name="Wiadomosc" id="Wiadomosc" cols="30" rows="10"></textarea><br>
+
+
+    </form>
+    
+ 
+    
+</body>
+</html>
